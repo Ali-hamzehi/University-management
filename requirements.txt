@@ -1,0 +1,13 @@
+django==4.1.4
+djangorestframework==3.13.0
+djangorestframework-simplejwt==5.3.0
+django-filter==23.3
+markdown==3.5
+django-jalali==6.0.1
+pillow==10.1.0
+psycopg2-binary==2.9.9
+celery==5.3.0
+redis==4.6.0
+drf-spectacular
+django-minio-storage
+python-dotenv

@@ -1,0 +1,11 @@
+stages:
+  - linting
+
+flake8:
+  stage: linting
+  image: python:3.8
+  script:
+    - python -m pip install flake8
+    - python -m pip install pep8
+    - flake8 .
+    - pep8 .
